@@ -27,7 +27,9 @@ function access(){
     ||(name=="S2/2021" && password=="demo")||(name=="S2/2021" && password=="demo")
     ||(name=="S2/2021" && password=="demo")||(name=="S2/2021" && password=="demo")){
 	window.open("home.html");
-	}
+	}else if(name=="trinity" && password=="trinity"){
+        window.open("home.html");
+    }
 	else{
     alert("Wrong Unique User ID and password combinations");
 }
