@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 .table-header {
   display: flex;
   width: 100%;
-  background: rgb(11, 124, 199);
+  background: rgb(241, 6, 6);
   padding: 18px 0;
 }
 
