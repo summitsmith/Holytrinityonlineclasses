@@ -268,7 +268,7 @@ td{border-width:0 1px;}
 
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
-body{color:#F9F9F9; background-color:#06213F;}
+body{color:#F9F9F9; background-color:#55ABDA;}
 
 a{color:#55ABDA;}
 
@@ -280,14 +280,14 @@ label span{color:#FF0000; background-color:inherit;}
 
 
 /* Rows */
-.row0, .row0 a{color:#F9F9F9; background-color:#06213F;}
-.row1{color:#979797; background-color:#06213F;}
-.row1 a{color:#F9F9F9; background-color:inherit;}
-.row2, .row2 a{color:#06213F; background-color:inherit;}
-.row3{color:#979797; background-color:inherit;}
-.row4{color:#979797; background-color:inherit;}
-.row5, .row5 a{color:#55ABDA; background-color:#06213F;}
-
+.row0, .row0 a{color:rgba(255, 5, 180, 0.952); background-color:#55ABDA;font-size: 13px;}
+.row1{color:#4519e4; background-color:#55ABDA;}
+.row1 a{color:#38ee0b; background-color:inherit;}
+.row2, .row2 a{color:#fa7509; background-color:inherit;}
+.row3{color:#0d10da; background-color:inherit;}
+.row4{color:#341d9c; background-color:inherit;}
+.row5, .row5 a{color:#fcfcfc; background-color:#55ABDA;}
+.cent{color:#1a02f0; background-color:inherit;text-align: center;font-size: 20px;text-transform:uppercase;}
 
 /* Top Bar */
 #topbar li{border-color:#FFFFFF;}
@@ -302,19 +302,19 @@ label span{color:#FF0000; background-color:inherit;}
 #slide-wrapper figure figcaption{color:#666666; background-color:rgba(255,255,255,.5);}
 #slide-wrapper figure figcaption:hover{background-color:rgba(255,255,255,1);}
 #slider #slide-tabs li a{color:#666666; background-color:#DEDACB; border-color:#666666;}
-#slider #slide-tabs li a:hover, #slider #slide-tabs li.active a{color:#FFFFFF; background-color:#06213F;}
+#slider #slide-tabs li a:hover, #slider #slide-tabs li.active a{color:#FFFFFF; background-color:#55ABDA;}
 
 
 /* Content Area */
 .container h1, .container h2, .container h3, .container h4, .container h5, .container h6, .container .heading{border-color:#D7D7D7;}
 
-#twitter{color:#FFFFFF; background-color:#06213F;}
+#twitter{color:#FFFFFF; background-color:#55ABDA;}
 #twitter div:first-child{border-color:#FFFFFF;}
 
 .listing li{border-color:#D7D7D7;}
 
 .quickinfo li a{color:#666666; background-color:#DEDACB;}
-.quickinfo li a:hover{color:#FFFFFF; background-color:#06213F;}
+.quickinfo li a:hover{color:#FFFFFF; background-color:#55ABDA;}
 
 
 /* Footer */
@@ -338,7 +338,7 @@ label span{color:#FF0000; background-color:inherit;}
 .container .sidebar nav a:hover{color:#55ABDA;}
 
 .pagination a, .pagination strong{border-color:#D7D7D7;}
-.pagination .current strong{color:#FFFFFF; background-color:#06213F;}
+.pagination .current strong{color:#FFFFFF; background-color:#55ABDA;}
 
 
 /* Tables + Comments */
@@ -428,3 +428,4 @@ table a, #comments a{background-color:inherit;}
 	.scrollable{display:block; width:100%; margin:0 0 30px 0; padding:0 0 15px 0; overflow:auto; overflow-x:scroll;}
 	.scrollable table{margin:0; padding:0; white-space:nowrap;}
 }
+
