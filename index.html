@@ -1,52 +1,51 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
- <head> 
   <title>Welcome to Holy Trinity Online Classes - Please login </title>
-  <link rel="icon" href="images/icon.png" type="image/x-icon">
-  <link rel="stylesheet" href="layout/home.css">
- </head> 
- <body> 
-  <div class="wrapper"> 
-   <div class="in" style="text-align:center;">
-      <img class="title" src="images/HOT logo.jpg" width="200px" height="300px">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="layout/sum.css">
+<body class="w3-container">
+
+<h2>Hallo, Welcome to Holy Trinity Online Classes</h2>
+
+<button onclick="document.getElementById('id01').style.display='block'" class="w3-btn w3-green w3-large">Login</button>
+
+<div id="id01" class="w3-modal">
+  <span onclick="document.getElementById('id01').style.display='none'" 
+  class="w3-closebtn w3-hover-red w3-container w3-padding-16 w3-display-topright w3-xxlarge">&times;</span>
+  <div class="w3-modal-content w3-card-8 w3-animate-zoom" style="max-width:600px">
+  
+    <div class="w3-center"><br>
+      <img src="images/HOT logo.jpg" alt="Avatar" style="width:40%" class="w3-circle w3-margin-top">
     </div>
-   <h1 class="title">Login to Holy Trinity Online Classes</h1> 
-   <div class="in"> 
-    <input type="text" id="name" required> 
-    <label>Unique User ID</label> 
-   </div> 
-   <div class="in"> 
-    <input type="password" name="password" id="pass" required> 
-    <label>Password</label> 
-   </div>
-   <p>Show Password<input type="checkbox"value="show"onclick="passcheck()"></p>
-<button type="submit" class="login" onclick="access();"<strong> Log in</strong></button>
-   <stuff> 
-    <p>Don't have an account or forgot credentials?</p> 
-    <strong><a href="pages/forgot ps.html" style="color: blueviolet;">Contact Admin</a></strong> 
-   </stuff> 
-  </div> 
-  <footer> 
-   <p>Site By</p> 
-   <strong>SSEMBATYA SHAFIC</strong> 
-  </footer>
- </body>
 
- <script src="pages/node.js"></script>
-    <script>
-      function passcheck()
-{
-    var passtype=document.getElementById("pass")
-    if(passtype.type==="text")
-    {
-        passtype.type="password";
-    }
-    else
-    {
-        passtype.type="text"
-    }
-}
+    <div class="w3-container">
+      <div class="w3-section">
+        <form action="">
+          <label><b>User ID</b></label>
+        <input class="w3-input w3-border w3-margin-bottom" type="text" id="name" placeholder="Enter User ID">
 
-    </script>
-    </script>
-</html>
+        <label><b>Password</b></label>
+        <input class="w3-input w3-border" type="password" id="pass" placeholder="Enter Password">
+        
+        <button type="submit" class="w3-btn w3-btn-block w3-green w3-section" onclick="access();">Login</button>
+        <input class="w3-check" type="checkbox" checked="checked"> Remember me
+        </form>
+        
+      </div>
+    </div>
+
+    <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
+      <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-btn w3-red">Cancel</button>
+      <span class="w3-right w3-padding w3-hide-small">Forgot <a href="pages/forgot ps.html">password?</a></span>
+    </div>
+
+  </div>
+</div>
+            
+</body>
+
+<script src="pages/node.js"></script>
+
+</html> 
