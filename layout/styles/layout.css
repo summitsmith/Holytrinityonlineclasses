@@ -1,12 +1,4 @@
 @charset "utf-8";
-/*
-Template Name: Academic Education V2
-Author: <a href="http://www.os-templates.com/">OS Templates</a>
-Author URI: http://www.os-templates.com/
-Licence: Free to use under our free template licence terms
-Licence URI: http://www.os-templates.com/template-terms
-File: Layout CSS
-*/
 
 @import url("fontawesome-4.2.0.min.css");
 @import url("../scripts/nivo-lightbox/nivo-lightbox.min.css");
@@ -287,11 +279,13 @@ label span{color:#FF0000; background-color:inherit;}
 .row3{color:#0d10da; background-color:inherit;}
 .row4{color:#341d9c; background-color:inherit;}
 .row5, .row5 a{color:#fcfcfc; background-color:#55ABDA;}
+.row6{color:#4519e4; background-color:#55ABDA;}
+.row6 h1{color:#ffffff; background-color:inherit;font-size: 20px;text-transform:uppercase;text-align: center;}
+.row6 a{color:#f5eded; background-color:inherit;font-size: 10px;}
 .cent{color:#1a02f0; background-color:inherit;text-align: center;font-size: 20px;text-transform:uppercase;}
 
 /* Top Bar */
 #topbar li{border-color:#FFFFFF;}
-
 
 /* Header */
 #header input{color:#979797; background-color:#FFFFFF;}
