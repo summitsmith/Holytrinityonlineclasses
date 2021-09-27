@@ -449,17 +449,18 @@
       <div class="fl_left">
         <h1>September - November Examinations</h1>
         <p>We shall have two sets running for one month as communicated earlier on</p>
-        <p>Download set one time table <a href="content=id3233/exams/HOTSS EXAMINATION PROGRAMME FOR S3.pdf">click to view</a></p>  
-        <p>The links below are the exam holders check out, according to the timetable</p>
+        <!--<p>Download set one time table <a href="content=id3233/exams/HOTSS EXAMINATION PROGRAMME FOR S3.pdf">click to view</a></p>  -->
+        <p>Assesment your self with set 1 exams<a href="content=id3233/exams/assessment set 1.pdf"> click to view</a></p>  
+        <p>The links below are now expired because set one is done already, if you missed set one exams, contact admin to activate any desired exam</p>
       </div>
   </div>
   
   <div id="slider">
     <div id="slide-wrapper" class="rounded clear"> 
       <ul id="slide-tabs">
-        <li><a href="content=id3233/exams/ENGLISH.pdf">English 2</a></li>
-        <li><a href="content=id3233/exams/MATH.pdf">Mathematics</a></li><!---->
-        <li><a href="content=id3233/exams/HISTORY SOUTH AFRICA.pdf">History iv</a></li><!---->
+        <li><a onclick="exam()" href="">English 2</a></li><!--content=id3233/exams/ENGLISH.pdf-->
+        <li><a onclick="exam()" href="#">Mathem</a></li><!--content=id3233/exams/MATH.pdf-->
+        <li><a onclick="exam()" href="#">History iv</a></li><!--content=id3233/exams/HISTORY SOUTH AFRICA.pdf-->
         
       </ul>
     </div>
@@ -469,9 +470,9 @@
     <div id="slide-wrapper" class="rounded clear"> 
       <ul id="slide-tabs">
         
-        <li><a href="content=id3233/exams/CRE.pdf">CRE</a></li><!---->
-        <li><a href="content=id3233/exams/GEOG 1.pdf">GEOGRAPHY I</a></li><!---->
-        <li><a href="#">CHEMISTRY II</a></li><!--content=id3233/exams/CHEMISTRY.pdf-->
+        <li><a onclick="exam()" href="#">CRE</a></li><!--content=id3233/exams/CRE.pdf-->
+        <li><a onclick="exam()" href="#">GEOGRAPHY I</a></li><!--content=id3233/exams/GEOG 1.pdf-->
+        <li><a onclick="exam()" href="#">CHEMISTRY II</a></li><!--content=id3233/exams/CHEMISTRY.pdf-->
       </ul>
     </div>
   </div>
@@ -765,6 +766,11 @@
       s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
       var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
   })();
+</script>
+<script>
+  function exam(){
+    alert('Hey there, this exam is protected because some students arent done doing it yet,to access it contact IT admin via the whatsapp button on this page to make it available for your user ID, Thanks');
+  }
 </script>
 </body>
 </html>
