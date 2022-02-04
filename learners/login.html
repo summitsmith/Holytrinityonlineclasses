@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+ <head> 
+  <title>Welcome to Holy Trinity Elearning platform - Please login </title>
+  <link rel="icon" href="images/icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="layout/logs.css">
+ </head> 
+ <body> 
+  <div class="wrapper"> 
+    <div class="in" style="text-align:center;">
+      <img class="title" src="images/HOT logo.jpg" width="200px" height="300px">
+    </div>
+   <h1 class="title">Login to Holy Trinity E-Learning Platform</h1> 
+   <div class="in"> 
+    <input type="text" id="name" required> 
+    <label>Unique User ID</label> 
+   </div> 
+   <div class="in"> 
+    <input type="password" name="password" id="pass" required> 
+    <label>Password</label> 
+   </div>
+   <p>Show Password<input type="checkbox"value="show"onclick="passcheck()"></p>
+   <button class="login"><strong><a href="" onclick="access();">Log in</a></strong></button> 
+   <stuff> 
+    <p>Don't have an account or forgot credentials?</p> 
+    <strong><a href="admin.html" style="color: blueviolet;">Contact Admin</a></strong> 
+   </stuff> 
+  </div> 
+  <footer> 
+   <p>Site By</p> 
+   <strong>SUMMIT TECH WORLD</strong> 
+  </footer>
+ </body>
+
+ <script src="pages/node.js"></script>
+
+    <script>
+      function passcheck()
+{
+    var passtype=document.getElementById("pass")
+    if(passtype.type==="text")
+    {
+        passtype.type="password";
+    }
+    else
+    {
+        passtype.type="text"
+    }
+}
+
+    </script>
+
+
+</html>
