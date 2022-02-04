@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+ <head> 
+  <title>Welcome to Holy Trinity Elearning platform - Contact admin </title>
+  <link rel="icon" href="images/icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="layout/logs.css">
+ </head> 
+ <body> 
+  <div class="wrapper"> 
+    <div class="in" style="text-align:center;">
+      <img class="title" src="images/HOT logo.jpg" width="200px" height="300px">
+    </div>
+   <h1 class="title">Contact Admin at Holy Trinity </h1> 
+   
+   <p>We reply in real time kindly use the links below to let us know of how we can help you</p>
+     <button class="login" id="go" onclick="reportConversionWrapper(event.target)"><strong>Whatsapp</strong></button> 
+   <button class="login" id="go" onclick="SendMail();"><strong>Send E-mail</strong></button> 
+   <button class="login" id="go" onclick="window.open('tel:0750051522');"><strong>Call</strong></button> 
+   <stuff> 
+    <p>want to go back to login ?</p> 
+    <strong><a href="login.html" style="color: blueviolet;">Click here</a></strong> 
+   </stuff> 
+  </div> 
+  <footer> 
+   <p>Site By</p> 
+   <strong>SUMMIT TECH WORLD</strong> 
+  </footer>
+ </body>
+
+ <script src="pages/node.js"></script>
+
+    <script>
+      function passcheck()
+{
+    var passtype=document.getElementById("pass")
+    if(passtype.type==="text")
+    {
+        passtype.type="password";
+    }
+    else
+    {
+        passtype.type="text"
+    }
+}
+function SendMail(){
+    
+    window.location.assign("mailto:holytrinity453@gmail.com");
+
+  }
+function reportConversionWrapper(target) {
+  reportConversion(target);
+  setTimeout( function() {
+    window.location.href = 'https://wa.me/0776646550';
+  }, 1000 );
+}
+// following is just a filler
+function reportConversion(a) {
+  return;
+}
+
+    </script>
+
+
+</html>
