@@ -8,7 +8,7 @@ function access(){
 	(name=="stud039" && password=="henry")||(name=="stud040" && password=="benita")||
 	(name=="stud041" && password=="jamira")){
 	window.open("home.html");
-	}else if(name=="trin" && password=="holy5"){
+	}else if(name=="summittech" && password=="trinity01"){
         window.open("home.html");
     }
 	else{
